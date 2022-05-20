@@ -1,0 +1,107 @@
+.shopheadline{
+    
+    margin: 100px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-style: italic;
+   
+}
+
+.shopheadline span{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #54f900;
+    font-style: italic;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.shoprow{
+    margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.shopcol{
+    flex-basis:32%;
+	border-radius: 10px;
+	margin-bottom:30px;
+	position: relative;
+	overflow: hidden;   
+}
+.h4{
+    text-align: center;
+	font-weight: 1200;
+	margin: 20px 0;   
+}
+.shopcol:hover{
+    box-shadow: 0 0 20px 0px rgb(51, 102, 255);
+
+}
+.shoplayer{
+    background: transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	transition: 0.55s;
+	opacity: 0.5;  
+}
+.shoplayer:hover{
+    background:rgb(102, 255, 255);
+}
+.shoplayer h4{
+	width: 100%;
+	font-weight: 1000;
+	color: #040204;
+	font-size: 26px;
+	bottom: 0;
+
+	transform: translateX(-60);
+	position: absolute;
+}
+.shoplayer span{
+    font-size: 20px;
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    font-weight: 1000;
+}
+.shoplayer:hover h4{
+	bottom: 49%;
+	opacity: 2;
+}
+.shopimg{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.shopview{
+    text-align: center;
+    font-size: 50px;
+    margin-right: 500px;
+}
+
+.shopview-btn{
+    margin:0px 100px 30px 100px;
+    color:blue;
+    font-size:500px;
+    font-weight: 520;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+	text-decoration:none;
+	border: 2px solid #0066ff;
+	padding: 12px 34px;
+	font-size: 15px;
+	background: transparent;
+	position: absolute;
+	transform: translate(65%,70%);
+	cursor: pointer;
+}
+
+.shopview-btn:hover{
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
