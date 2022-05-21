@@ -1,0 +1,66 @@
+
+.brandtitle{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin: 120px;
+}
+.brands{
+    margin-top: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.brandcol{
+    flex-basis:30%;
+	border-radius: 10px;
+	margin-left :50px;
+    margin-right: 50px;
+	position: relative;
+	overflow: hidden;
+    background: transparent;
+    display: block;
+    border-block: 1px solid;
+    writing-mode: horizontal-tb;
+    direction: rtl;
+}
+.brandcol h1{
+    text-align: center;
+}
+.brandcol span{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.brandimg{
+    margin-left :100px;
+	position: relative;
+}
+
+
+.brandview{
+    text-align: center;
+    font-size: 60px;
+    margin-right: 500px;
+}
+
+.brandview-btn{
+    margin:0px 100px 30px 105px;
+    color:#00ff00;
+    font-size:500px;
+    font-weight: 520;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 3;
+	text-decoration:none;
+	border: 3px solid #00ff00;
+	padding: 12px 34px;
+	font-size: 15px;
+	background: transparent;
+	position: absolute;
+	transform: translate(65%,70%);
+	cursor: pointer;
+}
+
+.brandview-btn:hover{
+	border: 1px solid #0066ff;
+	background: #0066ff;
+	transition: 1s;
+}

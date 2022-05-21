@@ -84,14 +84,14 @@
 }
 
 .shopview-btn{
-    margin:0px 100px 30px 100px;
+    margin:0px 100px 30px 80px;
     color:blue;
     font-size:500px;
     font-weight: 520;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 3;
 	text-decoration:none;
-	border: 2px solid #0066ff;
+	border: 3px solid #0066ff;
 	padding: 12px 34px;
 	font-size: 15px;
 	background: transparent;
