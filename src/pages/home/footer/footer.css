@@ -1,0 +1,108 @@
+.footer{
+    
+    background-color: #003366;
+    color: white;
+    height: 510px;
+}
+
+.inforow{
+    margin-top: 10%;
+	display: flex;
+	justify-content: space-between;
+}
+.infocol{
+    flex-basis:40%;
+	border-radius: 10px;
+	margin-left :40px;
+	position: relative;
+	overflow: hidden;
+    background: transparent;
+    display: block;
+    writing-mode: horizontal-tb;
+    direction: rtl;
+}
+.infocol h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+   
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.infocol p{
+    line-height: 2;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icons{
+    margin-left: 123px;
+}
+
+.iconimg{
+    margin-left: 5px;
+    max-width: 35px;
+}
+
+.payments{
+    margin-top: 70px;
+    text-align: center;
+}
+.payimg{
+    align-items: center;
+    margin-left: 50px;
+    width: 60px;
+}
+.bhim{
+    position: relative;
+    align-items: center;
+    margin-left: 50px;
+    width: 70px;
+    bottom: 12px;
+}
+.upi{
+    position: relative;
+    top: 5px;
+    align-items: center;
+    margin-left: 50px;
+    width: 70px;
+}
+
+.bottom{  
+    height: 400px;
+    background-color: black;
+   
+}
+
+.bottom p{
+    font-size: 12px;
+    position: relative;
+    top: 200px;
+    left: 530px;
+}
+
+
+.qicon{
+    position: relative;
+    top: 200px;
+    left: 640px;
+   
+   
+}
+
+.qizicon{
+    border-radius: 50%;
+}
+
+.qname{
+    position: relative;
+    left: 640px;
+    width:97px;
+    height:28px;
+    top: 200px;
+    background-color: white;
+}
+.qname img{
+    width: 95px;
+}
